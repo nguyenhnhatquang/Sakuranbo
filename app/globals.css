@@ -44,3 +44,11 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
