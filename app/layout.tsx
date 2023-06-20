@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import "./globals.css";
+import Widget from "@/components/Widget";
 
 export const metadata = {
   title: "Trung tâm tiếng Nhật Đà Nẵng - Sakuranbo",
@@ -18,6 +19,7 @@ export default function RootLayout({
     <html lang="vi">
       <body>
         <Header />
+        <Widget />
         {children}
       </body>
     </html>
