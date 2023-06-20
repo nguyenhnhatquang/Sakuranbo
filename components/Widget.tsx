@@ -2,7 +2,7 @@ import React from 'react'
 
 const Widget = () => {
   return (
-    <div id="widget" className="fixed bottom-10 right-10 z-10">
+    <div id="widget" className="fixed bottom-1 right-3 md:right-5 md:bottom-5 z-10">
         {/* Phone */}
         <div className="w-14 h-14">
             <a href="tel:+84869073435" className="relative flex items-center justify-center">
